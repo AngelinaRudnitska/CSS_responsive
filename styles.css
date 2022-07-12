@@ -9,6 +9,7 @@ body{
 #header{
   position: fixed;
   background-color: #eee;
+  max-width: 1200px;
   max-height: 75px;
   left: 0;
   right: 0;
@@ -17,7 +18,6 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 20px;
 }
 
 #header-img {
@@ -29,7 +29,7 @@ body{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  gap: 150px;
+  gap: 100px;
 }
 
 #nav-bar li{
@@ -38,7 +38,7 @@ body{
 
 #nav-bar a{
   text-decoration: none;
-  font-family: "Leto", sans-serif;
+  font-family: "Lato", sans-serif;
   color: #000;
 }
 
@@ -78,7 +78,7 @@ body{
     width: 150px;
     height: 30px;
     border: 0;
-    font-family: 'Leto';
+    font-family: 'Lato';
     font-size: 15px;
     text-transform: uppercase;
     font-weight: bold;
@@ -92,7 +92,7 @@ body{
     align-items: center;
     justify-content: center;
     background-color: #eee;
-    font-family: 'Leto', sans-serif;
+    font-family: 'Lato', sans-serif;
   }
 
 
@@ -116,4 +116,70 @@ body{
     justify-content: space-around;
     align-items: center;
     gap: 30px;
+}
+
+#video {
+    margin-top: 30px;
+    width: 560px;
+    height: 315px;
+    border: 1px solid #000;
+}
+
+/*Pricing*/
+#pricing-menu {
+    padding-top: 20px;
+    background-color: #eee;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 300px 300px 300px 300px 300px;
+    grid-template-rows: 300px;
+    grid-column-gap: 20px;
+    text-align: center;
+    font-family: 'Lato';
+}
+
+.first-pricing-info{
+    grid-column: 2 / 3;
+}
+
+.second-pricing-info {
+    grid-column: 3 / 4;
+}
+
+.third-pricing-info {
+    grid-column: 4 / 5;
+}
+
+.price-box {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.price-box h{
+    text-transform: uppercase;
+}
+
+.heading-color{
+    background-color: #ddd;
+    width: 100%;
+}
+
+.price-detail{
+    font-weight: bold;
+}
+
+.pricing-text{
+    max-width: 300px;
+    text-align: center;
+}
+
+.select-button {
+    margin-top: 40px;
+    background-color: #f1c40f;
+    height: 40px;
+    width: 100px;
+    border: 0;
+    text-transform: uppercase;
+    align-self: center;
 }
