@@ -183,3 +183,52 @@ body{
     text-transform: uppercase;
     align-self: center;
 }
+
+.uppercase-heading {
+    text-transform: uppercase;
+}
+
+/*Footer*/
+.footer{
+    background-color: #eee;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-nav {
+    background-color: #ddd;
+    width: 1000px;
+    max-height: 80px;
+    margin-top: 15px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.footer-links {
+    display: flex;
+    justify-content:end;
+    align-items: flex-end;
+    gap: 50px;
+}
+
+.footer-link-list {
+    list-style: none;
+}
+
+.footer-link-list a{
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    color: #000;
+    padding-right: 10px;
+}
+
+.footer-nav span {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    justify-content:end;
+    align-items: flex-end;
+    padding-right: 10px;
+}
